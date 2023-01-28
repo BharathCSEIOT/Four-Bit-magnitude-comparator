@@ -8,7 +8,7 @@
 A comparator used to compare two binary numbers each of four bits is called a 4-bit magnitude comparator. It consists of eight inputs each for two four-bit numbers and three outputs to generate less than, equal to, and greater than between two binary numbers.
 
 # Logic Diagram
-
+![output](/comp_ld.jpg)
 
 # Logical Expression
 For A = B
@@ -21,10 +21,10 @@ For A < B
 L = (¬A3 B3) + (A3 ⊙ B3)(¬A2 B2) + (A3 ⊙ B3)(A2 ⊙ B2)(¬A1 B1) + (A3 ⊙ B3)(A2 ⊙ B2)(A1 ⊙ B1)(¬A0 B0)
 
 # Block Diagram
-
+![output](/comp_bd.png)
 
 # Truth Table
-
+![output](/comp_tt.png)
 
 # Explanation
 In a 4-bit comparator the condition of A>B can be possible in the following four cases:
@@ -82,10 +82,10 @@ endmodule
 ```
 
 # RTL Diagram
-
+![output](/four_bit_mag_comp_rtl.png)
 
 # Timing Diagram
-
+![output](/comp_td.png)
 
 # Result
 Thus the implementation of 4 bit magnitude comparator using Verilog is verified.
